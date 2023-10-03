@@ -3,10 +3,10 @@ const myImage = document.querySelector("img");
 
 myImage.onclick = () => {
     const mySrc = myImage.getAttribute("src");
-    if (mySrc === "imagens/gato-preto-curioso.png") {
-        myImage.setAttribute("src", "imagens/Fundo-teste.png");
+    if (mySrc === "imagens/Gato-Preto-Curioso.jpg") {
+        myImage.setAttribute("src", "imagens/Gato-Escondido.jpg");
     } else {
-        myImage.setAttribute("src", "imagens/gato-preto-curioso.png");
+        myImage.setAttribute("src", "imagens/Gato-Preto-Curioso.jpg");
     }
 };
 let myButton = document.querySelector("button");
